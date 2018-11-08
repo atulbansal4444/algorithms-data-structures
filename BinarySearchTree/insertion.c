@@ -40,9 +40,6 @@ int main() {
 	root = insert(root, 18);
 	root = insert(root, 16);
 	root = insert(root, 20);
-
 	//printf("%d", root -> left -> data);
-	printf("%d", findMax(root -> left -> left -> left));
-
-
+	//printf("%d", findMax(root -> left -> left -> left));
 }
